@@ -175,3 +175,49 @@ p {
     </div>
 
 </div>
+/* ✅ تنظیمات اصلی */
+.container {
+    display: flex; /* دو بخش را کنار هم قرار می‌دهد */
+    justify-content: space-between; /* فاصله‌ی مساوی بین دو بخش */
+    align-items: flex-start; /* تنظیم تراز بخش‌ها */
+    width: 90%; /* عرض کلی صفحه */
+    margin: auto; /* قرارگیری در وسط صفحه */
+    padding: 40px 0;
+}
+
+/* ✅ تنظیمات بخش چپ */
+.left-section {
+    width: 48%; /* اندازه‌ی ۴۸٪ از صفحه */
+    background: rgba(0, 0, 0, 0.6); /* پس‌زمینه‌ی نیمه‌شفاف */
+    padding: 20px;
+    border-radius: 10px; /* گوشه‌های نرم */
+    font-family: "Times New Roman", serif; /* تغییر فونت */
+    color: #ffffff;
+}
+
+/* ✅ تنظیمات بخش راست */
+.right-section {
+    width: 48%; /* اندازه‌ی ۴۸٪ از صفحه */
+    background: rgba(0, 0, 0, 0.4); /* پس‌زمینه‌ی نیمه‌شفاف */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Times New Roman", serif;
+    color: #ffffff;
+}
+
+/* ✅ تنظیمات تیترهای بخش راست */
+.right-section h3 {
+    color: #facc15; /* رنگ طلایی */
+    margin-top: 15px;
+}
+
+/* ✅ تنظیمات لیست ارزش‌ها */
+.right-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-section li {
+    padding: 5px 0;
+    font-size: 16px;
+}
