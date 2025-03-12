@@ -58,166 +58,51 @@ p {
     font-size: 18px;
     margin-top: 10px;
 }
-#about-collection {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.5);
-    text-align: justify;
-}
-
-#about-collection h2 {
-    color: gold;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-#about-collection p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #ddd;
-    text-align: justify;
-}
-
-#about-collection strong {
-    color: white;
-    font-size: 17px;
-}
-
-#about-collection h3 {
-    text-align: center;
-    margin-top: 20px;
-    color: gold;
-}
-#intro {
-    text-align: center;
-    font-size: 18px;
-    color: gold;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-#about-collection {
-    background: rgba(0, 0, 0, 0.6); /* پس‌زمینه شفاف‌تر */
-    border-radius: 15px; /* گوشه‌های نرم‌تر */
-    padding: 20px; /* فاصله داخلی */
-    margin: 20px auto; /* فاصله از اطراف */
-    width: 80%; /* عرض مناسب */
-    text-align: justify; /* متن از دو طرف مرتب شود */
-    font-size: 16px; /* کوچک‌تر و خواناتر */
-    color: #f1c40f; /* رنگ طلایی */
-    line-height: 1.8; /* فاصله بین خطوط */
-    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5); /* افکت سایه طلایی */
-}
-
-#about-collection h2 {
-    text-align: center; /* تیتر وسط صفحه */
-    color: #ffcc00; /* رنگ طلایی براق‌تر */
-    font-size: 22px; /* اندازه مناسب برای تیتر */
-}
-#about-collection {
-    background: rgba(0, 0, 0, 0.5); /* پس‌زمینه شفاف‌تر */
-    border-radius: 10px; /* گوشه‌های نرم‌تر */
-    padding: 15px; /* فاصله داخلی کمتر */
-    margin: 15px auto; /* فاصله از اطراف کمتر */
-    width: 70%; /* عرض کمتر برای کوچک‌تر شدن چارت */
-    text-align: justify; /* متن از دو طرف مرتب شود */
-    font-size: 14px; /* اندازه فونت کوچک‌تر */
-    color: #f1c40f; /* رنگ طلایی */
-    line-height: 1.6; /* فاصله بین خطوط کمتر */
-    box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.4); /* افکت سایه طلایی سبک‌تر */
-}
-
-#about-collection h2 {
-    text-align: center; /* تیتر وسط صفحه */
-    color: #ffcc00; /* رنگ طلایی براق‌تر */
-    font-size: 18px; /* تیتر کوچک‌تر */
-    font-weight: bold; /* تیتر ضخیم‌تر */
-}
-#about-collection p {
-    font-size: 13px; /* اندازه متن کوچک‌تر */
-    color: #ddd; /* رنگ خاکستری روشن برای خوانایی بهتر */
-}
-.collection-box {
-    font-family: "Times New Roman", Times, serif;
-}
-<!-- بخش کلی صفحه -->
-<div class="container">
-    
-    <!-- ✅ بخش چپ: توضیحات کلکشن -->
-    <div class="left-section">
-        <h2>The Philosophy of the (numbers) from 0 to 100</h2>
-        <p>
-            Greetings: to the elders and inventors of the science of numbers and mathematics. <br><br>
-            (Numbers) are not just to represent the amount or calculation of a mathematical problem, but also have broader meanings and concepts than the calculation. According to the science of numbers, each number has its own meaning and different interpretations can be expressed for each number.
-        </p>
-        <p><strong>We lovingly made this beautiful and meaningful collection, with all its difficulties, for you in 101 days.</strong></p>
-    </div>
-
-    <!-- ✅ بخش راست: اطلاعات سایت -->
-    <div class="right-section">
-        <h3>Our Mission</h3>
-        <p>To provide unique and high-quality NFT collections that inspire creativity and innovation.</p>
-
-        <h3>Our Vision</h3>
-        <p>To become a leading platform in the NFT space, offering meaningful and artistic digital assets.</p>
-
-        <h3>Our Core Values</h3>
-        <ul>
-            <li>Creativity</li>
-            <li>Innovation</li>
-            <li>Transparency</li>
-            <li>Community Engagement</li>
-        </ul>
-    </div>
-
-</div>
-/* ✅ تنظیمات اصلی */
-.container {
-    display: flex; /* دو بخش را کنار هم قرار می‌دهد */
+/* ✅ تنظیم کلی صفحه */
+.content-container {
+    display: flex;
     justify-content: space-between; /* فاصله‌ی مساوی بین دو بخش */
-    align-items: flex-start; /* تنظیم تراز بخش‌ها */
-    width: 90%; /* عرض کلی صفحه */
-    margin: auto; /* قرارگیری در وسط صفحه */
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
     padding: 40px 0;
+    gap: 20px; /* فاصله‌ی بین دو بخش */
 }
-/* ✅ تنظیمات بخش چپ */
+
+/* ✅ بخش چپ */
 .left-section {
-    width: 48%; /* پهنای مناسب */
+    width: 48%; /* نصف صفحه */
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
     font-family: "Times New Roman", serif;
     color: #ffffff;
     text-align: left;
-    overflow: visible; /* متن قطع نشود */
+    overflow: visible;
     white-space: normal;
     word-wrap: break-word;
 }
 
-/* ✅ تنظیمات بخش راست */
+/* ✅ بخش راست */
 .right-section {
-    width: 48%; /* پهنای مناسب */
+    width: 48%; /* نصف صفحه */
     background: rgba(0, 0, 0, 0.4);
     padding: 20px;
     border-radius: 10px;
     font-family: "Times New Roman", serif;
     color: #ffffff;
     text-align: left;
-    overflow: visible; /* متن قطع نشود */
+    overflow: visible;
     white-space: normal;
     word-wrap: break-word;
 }
 
-/* ✅ تنظیم فاصله‌ی بین دو بخش */
-.content-container {
-    display: flex;
-    justify-content: space-between; /* فاصله‌ی مساوی */
-    align-items: flex-start;
-    width: 90%;
-    margin: auto;
-    padding: 40px 0;
-    flex-wrap: wrap; /* اگر صفحه کوچک شد، دو بخش زیر هم نروند */
+/* ✅ برای موبایل */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .left-section, .right-section {
+        width: 100%;
+    }
+}
