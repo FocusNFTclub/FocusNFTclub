@@ -118,3 +118,26 @@ p {
     color: #ffcc00; /* رنگ طلایی براق‌تر */
     font-size: 22px; /* اندازه مناسب برای تیتر */
 }
+#about-collection {
+    background: rgba(0, 0, 0, 0.5); /* پس‌زمینه شفاف‌تر */
+    border-radius: 10px; /* گوشه‌های نرم‌تر */
+    padding: 15px; /* فاصله داخلی کمتر */
+    margin: 15px auto; /* فاصله از اطراف کمتر */
+    width: 70%; /* عرض کمتر برای کوچک‌تر شدن چارت */
+    text-align: justify; /* متن از دو طرف مرتب شود */
+    font-size: 14px; /* اندازه فونت کوچک‌تر */
+    color: #f1c40f; /* رنگ طلایی */
+    line-height: 1.6; /* فاصله بین خطوط کمتر */
+    box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.4); /* افکت سایه طلایی سبک‌تر */
+}
+
+#about-collection h2 {
+    text-align: center; /* تیتر وسط صفحه */
+    color: #ffcc00; /* رنگ طلایی براق‌تر */
+    font-size: 18px; /* تیتر کوچک‌تر */
+    font-weight: bold; /* تیتر ضخیم‌تر */
+}
+#about-collection p {
+    font-size: 13px; /* اندازه متن کوچک‌تر */
+    color: #ddd; /* رنگ خاکستری روشن برای خوانایی بهتر */
+}
