@@ -60,18 +60,35 @@ p {
 }
 #about-collection {
     max-width: 800px;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.5);
+    text-align: justify;
 }
 
 #about-collection h2 {
     color: gold;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #about-collection p {
     font-size: 16px;
     line-height: 1.8;
+    color: #ddd;
+    text-align: justify;
+}
+
+#about-collection strong {
+    color: white;
+    font-size: 17px;
+}
+
+#about-collection h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: gold;
 }
