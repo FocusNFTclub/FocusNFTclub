@@ -184,40 +184,40 @@ p {
     margin: auto; /* قرارگیری در وسط صفحه */
     padding: 40px 0;
 }
-
 /* ✅ تنظیمات بخش چپ */
 .left-section {
-    width: 48%; /* اندازه‌ی ۴۸٪ از صفحه */
-    background: rgba(0, 0, 0, 0.6); /* پس‌زمینه‌ی نیمه‌شفاف */
-    padding: 20px;
-    border-radius: 10px; /* گوشه‌های نرم */
-    font-family: "Times New Roman", serif; /* تغییر فونت */
-    color: #ffffff;
-}
-
-/* ✅ تنظیمات بخش راست */
-.right-section {
-    width: 48%; /* اندازه‌ی ۴۸٪ از صفحه */
-    background: rgba(0, 0, 0, 0.4); /* پس‌زمینه‌ی نیمه‌شفاف */
+    width: 48%; /* پهنای مناسب */
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
     font-family: "Times New Roman", serif;
     color: #ffffff;
+    text-align: left;
+    overflow: visible; /* متن قطع نشود */
+    white-space: normal;
+    word-wrap: break-word;
 }
 
-/* ✅ تنظیمات تیترهای بخش راست */
-.right-section h3 {
-    color: #facc15; /* رنگ طلایی */
-    margin-top: 15px;
+/* ✅ تنظیمات بخش راست */
+.right-section {
+    width: 48%; /* پهنای مناسب */
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Times New Roman", serif;
+    color: #ffffff;
+    text-align: left;
+    overflow: visible; /* متن قطع نشود */
+    white-space: normal;
+    word-wrap: break-word;
 }
 
-/* ✅ تنظیمات لیست ارزش‌ها */
-.right-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.right-section li {
-    padding: 5px 0;
-    font-size: 16px;
-}
+/* ✅ تنظیم فاصله‌ی بین دو بخش */
+.content-container {
+    display: flex;
+    justify-content: space-between; /* فاصله‌ی مساوی */
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    flex-wrap: wrap; /* اگر صفحه کوچک شد، دو بخش زیر هم نروند */
