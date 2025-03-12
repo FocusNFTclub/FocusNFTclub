@@ -58,3 +58,20 @@ p {
     font-size: 18px;
     margin-top: 10px;
 }
+#about-collection {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.5);
+}
+
+#about-collection h2 {
+    color: gold;
+}
+
+#about-collection p {
+    font-size: 16px;
+    line-height: 1.8;
+}
