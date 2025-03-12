@@ -141,3 +141,6 @@ p {
     font-size: 13px; /* اندازه متن کوچک‌تر */
     color: #ddd; /* رنگ خاکستری روشن برای خوانایی بهتر */
 }
+.collection-box {
+    font-family: "Times New Roman", Times, serif;
+}
