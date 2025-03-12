@@ -100,3 +100,21 @@ p {
     margin-bottom: 20px;
     font-weight: bold;
 }
+#about-collection {
+    background: rgba(0, 0, 0, 0.6); /* پس‌زمینه شفاف‌تر */
+    border-radius: 15px; /* گوشه‌های نرم‌تر */
+    padding: 20px; /* فاصله داخلی */
+    margin: 20px auto; /* فاصله از اطراف */
+    width: 80%; /* عرض مناسب */
+    text-align: justify; /* متن از دو طرف مرتب شود */
+    font-size: 16px; /* کوچک‌تر و خواناتر */
+    color: #f1c40f; /* رنگ طلایی */
+    line-height: 1.8; /* فاصله بین خطوط */
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5); /* افکت سایه طلایی */
+}
+
+#about-collection h2 {
+    text-align: center; /* تیتر وسط صفحه */
+    color: #ffcc00; /* رنگ طلایی براق‌تر */
+    font-size: 22px; /* اندازه مناسب برای تیتر */
+}
