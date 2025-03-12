@@ -5,3 +5,13 @@ body {
     margin: 0;
     padding: 0;
 }
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black; /* پس‌زمینه‌ی هدر */
+}
+
+.logo {
+    height: 80px; /* اندازه لوگو */
+}
