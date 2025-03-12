@@ -144,3 +144,34 @@ p {
 .collection-box {
     font-family: "Times New Roman", Times, serif;
 }
+<!-- بخش کلی صفحه -->
+<div class="container">
+    
+    <!-- ✅ بخش چپ: توضیحات کلکشن -->
+    <div class="left-section">
+        <h2>The Philosophy of the (numbers) from 0 to 100</h2>
+        <p>
+            Greetings: to the elders and inventors of the science of numbers and mathematics. <br><br>
+            (Numbers) are not just to represent the amount or calculation of a mathematical problem, but also have broader meanings and concepts than the calculation. According to the science of numbers, each number has its own meaning and different interpretations can be expressed for each number.
+        </p>
+        <p><strong>We lovingly made this beautiful and meaningful collection, with all its difficulties, for you in 101 days.</strong></p>
+    </div>
+
+    <!-- ✅ بخش راست: اطلاعات سایت -->
+    <div class="right-section">
+        <h3>Our Mission</h3>
+        <p>To provide unique and high-quality NFT collections that inspire creativity and innovation.</p>
+
+        <h3>Our Vision</h3>
+        <p>To become a leading platform in the NFT space, offering meaningful and artistic digital assets.</p>
+
+        <h3>Our Core Values</h3>
+        <ul>
+            <li>Creativity</li>
+            <li>Innovation</li>
+            <li>Transparency</li>
+            <li>Community Engagement</li>
+        </ul>
+    </div>
+
+</div>
