@@ -1,36 +1,27 @@
 body {
-    background: linear-gradient(to right, #111, #222);
+    background: linear-gradient(to bottom, #000000, #222222);
     color: #FFD700;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-}
-
-nav {
-    margin: 20px;
 }
 
 nav a {
     color: #FFD700;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 18px;
     margin: 0 10px;
 }
 
 nav a:hover {
+    color: #FFFFFF;
     text-decoration: underline;
-    color: #FFA500;
 }
 
 h1 {
     font-size: 36px;
-    margin-top: 20px;
+    font-weight: bold;
 }
 
 p {
-    font-size: 18px;
-}
-
-img {
-    margin-top: 20px;
-    border-radius: 10px;
+    font-size: 20px;
 }
