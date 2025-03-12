@@ -92,3 +92,11 @@ p {
     margin-top: 20px;
     color: gold;
 }
+#intro {
+    text-align: center;
+    font-size: 18px;
+    color: gold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
