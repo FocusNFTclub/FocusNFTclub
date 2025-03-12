@@ -1,0 +1,15 @@
+body {
+    background-color: #1a1a1a;  /* پس‌زمینه مشکی */
+    color: gold;  /* متن طلایی */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+}
