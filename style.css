@@ -76,6 +76,11 @@ h1 {
   position: relative;
   display: inline-block;
   width: 200px; /* عرض دانه‌ها */
+  transition: transform 0.3s ease; /* انیمیشن تغییر موقعیت دانه‌ها */
+}
+
+.dropdown:hover {
+  transform: scale(1.05); /* بزرگتر شدن دانه‌ها هنگام hover */
 }
 
 .dropbtn {
@@ -87,8 +92,18 @@ h1 {
   font-size: 16px;
   border-radius: 8px; /* گوشه‌های دکمه گرد */
   width: 100%; /* عرض دکمه به اندازه دانه */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* سایه نرم دکمه */
+  transition: all 0.3s ease; /* انیمیشن برای تغییرات دکمه */
 }
 
+/* تغییر رنگ و سایه دکمه هنگام hover */
+.dropbtn:hover {
+  background-color: #ffcc00; /* رنگ طلایی هنگام hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* سایه بزرگ‌تر هنگام hover */
+  color: #fff; /* تغییر رنگ متن */
+}
+
+/* استایل برای محتوای دانه‌ها */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -99,22 +114,17 @@ h1 {
   border-radius: 8px;
   padding: 15px;
   z-index: 1;
-}
-
-.dropdown-content p, .dropdown-content ul {
-  font-size: 16px;
-  color: #333;
-}
-
-.dropdown-content ul {
-  padding-left: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* انیمیشن محو شدن */
 }
 
 /* نمایش دانه‌ها هنگام کلیک */
 .dropdown.open .dropdown-content {
   display: block;
+  opacity: 1;
 }
 
+/* تغییر رنگ و سایه دکمه هنگام hover */
 .dropdown:hover .dropbtn {
   background-color: #ddd;
 }
