@@ -41,7 +41,13 @@ h1 {
     font-size: 42px; /* کمی بزرگ‌تر شد */
     margin: 0;
 }
-
+h1, p {
+    text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white; /* ایجاد Stroke سفید نازک */
+}
 .chart-box img {
     width: 80%; /* اندازه چارت را متناسب کنیم */
     max-width: 600px; /* چارت خیلی بزرگ نشود */
