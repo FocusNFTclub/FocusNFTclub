@@ -153,11 +153,11 @@ h1 {
 }
 .logo {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 100px;  /* اندازه لوگو */
-    height: auto;
-    border-radius: 50%; /* اگر حلقه‌ی دایره‌ای است */
-    border: 5px solid gold; /* رنگ طلایی حلقه */
+    top: 40px;
+    left: 30px;
+    width: 200px;  /* اندازه لوگو */
+    height: 200;
+    border-radius: 70%; /* اگر حلقه‌ی دایره‌ای است */
+    border: 4px solid gold; /* رنگ طلایی حلقه */
     box-shadow: 0 0 15px gold, 0 0 30px rgba(255, 215, 0, 0.5); /* افکت نور */
 }
