@@ -86,3 +86,15 @@ header {
     border-radius: 50%;
     object-fit: cover;
 }
+.cover {
+    width: 100%;
+    height: 350px; /* ارتفاع را می‌توانی تنظیم کنی */
+    position: relative;
+    overflow: hidden;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* این باعث می‌شود که تصویر به‌درستی نمایش داده شود */
+}
