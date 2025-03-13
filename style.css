@@ -151,34 +151,3 @@ h1 {
   background-color: #ddd;
   color: #ff4500; /* رنگ نارنجی متن هنگام hover */
 }
-/* تنظیمات برای موبایل (کمتر از 768px) */
-@media screen and (max-width: 768px) {
-
-  /* وسط چین کردن دکمه‌ها بدون تغییر اندازه */
-  .dropdown-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px; /* فاصله کمی اضافه شود */
-  }
-
-  /* جلوگیری از بزرگ شدن بیش از حد دکمه‌ها */
-  .dropbtn {
-    width: auto; /* اندازه ثابت بماند */
-    padding: 8px 16px; /* اندازه دکمه‌ها مناسب‌تر شود */
-    font-size: 14px;
-  }
-
-  /* تغییر اندازه لوگو برای جلوگیری از بزرگ شدن */
-  .logo {
-    max-width: 180px; /* لوگو بیش از حد بزرگ نشود */
-    height: auto;
-  }
-
-  /* تنظیم اندازه متن‌ها */
-  .text-container {
-    text-align: center;
-    font-size: 16px;
-    padding: 10px;
-  }
-}
