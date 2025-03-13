@@ -154,10 +154,10 @@ h1 {
 .logo {
     position: absolute;
     top: 40px; /* فاصله از بالا */
-    left: 30px; /* فاصله از راست */
+    left: 30px; /* فاصله از چپ */
     width: 200px; /* اندازه لوگو */
     height: 200px; 
     border-radius: 70%; /* گرد کردن تصویر */
-    border: 4px solid white; /* حلقه سفید */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* افکت نور ظریف */
+    border: 4px solid gold; /* تغییر رنگ حلقه به طلایی */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8); /* افکت درخشش طلایی */
 }
