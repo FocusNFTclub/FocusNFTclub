@@ -49,14 +49,15 @@ h1 {
     margin: auto;
     border-radius: 10px; /* کمی گوشه‌های چارت را گرد کنیم */
 }
-/* استایل برای خط طلایی با پس‌زمینه سیاه */
+/* استایل برای خط طلایی با پس‌زمینه مشکی شفاف و خیره‌کننده */
 .golden-line {
-  background-color: black; /* پس‌زمینه سیاه */
+  background-color: rgba(0, 0, 0, 0.8); /* پس‌زمینه مشکی شفاف */
   color: gold; /* رنگ متن طلایی */
   padding: 15px; /* فاصله داخلی */
   text-align: center; /* تراز کردن متن در وسط */
   font-size: 20px; /* اندازه متن */
   font-weight: bold; /* وزن متن */
-  margin-top: 20px; /* فاصله از متن بالای صفحه */
-  box-shadow: 0px 0px 10px 5px gold; /* ایجاد افکت خیره‌کننده اطراف پس‌زمینه */
+  margin-top: 20px; /* فاصله از متن بالا */
+  box-shadow: 0px 0px 15px 5px gold; /* افکت نورانی طلایی اطراف */
+  border-radius: 10px; /* گوشه‌های گرد */
 }
