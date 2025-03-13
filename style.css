@@ -26,18 +26,20 @@ body::before {
     border-radius: 10px; /* گوشه‌های گرد */
 }
 .welcome-container {
-    text-align: center; /* متن وسط صفحه قرار گیرد */
-    margin-top: 50px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5); /* پس‌زمینه نیمه‌شفاف */
-    display: inline-block;
-    border-radius: 10px; /* گوشه‌های گرد */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px 50px; /* کمی کوچک‌تر شد */
+    background: rgba(0, 0, 0, 0.3); /* شفاف‌تر شد */
+    border-radius: 10px;
 }
 
 h1 {
     color: gold;
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 42px; /* کمی بزرگ‌تر شد */
+    margin: 0;
 }
 
 .chart-box img {
