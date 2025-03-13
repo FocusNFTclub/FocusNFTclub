@@ -49,3 +49,12 @@ h1 {
     margin: auto;
     border-radius: 10px; /* کمی گوشه‌های چارت را گرد کنیم */
 }
+.logo {
+  position: absolute;
+  right: 20px; /* فاصله از سمت راست */
+  top: 50%; /* قرار گرفتن در وسط عمودی */
+  transform: translateY(-50%);
+  border: 2px solid white; /* حلقه سفید نازک */
+  border-radius: 50%; /* شکل دایره‌ای */
+  padding: 10px; /* فضای داخلی */
+}
