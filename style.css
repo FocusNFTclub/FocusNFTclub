@@ -35,7 +35,7 @@ header {
 }
 .cover {
     width: 100%;
-    height: 300px; /* می‌توانی ارتفاع را تنظیم کنی */
+    height: 350px; /* می‌توانی ارتفاع را تنظیم کنی */
     position: relative;
     overflow: hidden;
 }
