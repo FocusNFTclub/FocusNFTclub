@@ -43,10 +43,10 @@ h1 {
 }
 h1, p {
     text-shadow: 
-        -1px -1px 0 white,  
-         1px -1px 0 white,
-        -1px  1px 0 white,
-         1px  1px 0 white; /* ایجاد Stroke سفید نازک */
+        -0px -1px 0 white,  
+         0px -1px 0 white,
+        -0px  1px 0 white,
+         0px  1px 0 white; /* ایجاد Stroke سفید نازک */
 }
 .chart-box img {
     width: 80%; /* اندازه چارت را متناسب کنیم */
