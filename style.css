@@ -31,7 +31,7 @@ body::before {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    padding: 30px 50px; /* کمی کوچک‌تر شد */
+    padding: 15px 30px; /* کمی کوچک‌تر شد */
     background: rgba(0, 0, 0, 0.3); /* شفاف‌تر شد */
     border-radius: 10px;
 }
