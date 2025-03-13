@@ -98,3 +98,21 @@ header {
     height: 100%;
     object-fit: cover; /* این باعث می‌شود که تصویر به‌درستی نمایش داده شود */
 }
+.logo-container {
+    position: absolute;
+    bottom: -50px; /* این مقدار را تغییر بده تا جای مناسب پیدا کند */
+    left: 20px; /* فاصله از چپ */
+    width: 120px; /* اندازه لوگو */
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
