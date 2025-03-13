@@ -154,7 +154,7 @@ h1 {
 .logo {
     position: absolute;
     top: 20px; /* فاصله از بالا */
-    right: 20px; /* فاصله از راست */
+    left: 20px; /* فاصله از راست */
     width: 100px; /* اندازه لوگو */
     height: 100px; 
     border-radius: 50%; /* گرد کردن تصویر */
