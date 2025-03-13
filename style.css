@@ -1,0 +1,15 @@
+body {
+    background-color: black; /* پس‌زمینه سیاه */
+    color: gold; /* متن طلایی */
+    font-family: Arial, sans-serif; /* فونت پیش‌فرض */
+    text-align: center; /* متن در مرکز */
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid gold; /* حاشیه طلایی */
+    box-shadow: 0 0 15px gold; /* افکت درخشش طلایی */
+    border-radius: 10px; /* گوشه‌های گرد */
+}
