@@ -22,3 +22,14 @@ header {
     object-fit: cover; /* اگر لوگو درست نمایش داده نشد، این تنظیم را تست کن */
     border: 3px solid #FFD700; /* حاشیه طلایی برای زیبایی */
 }
+.cover {
+    width: 100%;
+    height: 300px; /* می‌تونی ارتفاع رو تنظیم کنی */
+    overflow: hidden;
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
