@@ -7,8 +7,8 @@ body {
     color: white;
 .header {
     position: relative;
-    width: 100%; /* عرض تغییری نمی‌کند */
-    height: 50vh; /* کاهش ارتفاع: اگر قبلاً 70vh بود، حالا 50vh شد */
+    width: 100%; /* عرض ثابت */
+    height: 30vh; /* ارتفاع رو کمتر کن، مثلاً 30 درصد صفحه */
     background: url('image/cover.jpeg') no-repeat center center/cover;
 }
 
