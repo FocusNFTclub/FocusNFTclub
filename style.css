@@ -6,7 +6,6 @@ body {
     background-attachment: fixed; /* هنگام اسکرول ثابت بماند */
 }
 
-/* اضافه کردن لایه تیره نیمه‌شفاف روی پس‌زمینه */
 body::before {
     content: "";
     position: absolute;
@@ -14,7 +13,8 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1); /* لایه مشکی نیمه‌شفاف */
+    background: url('image/cover.jpeg') center/cover no-repeat;
+    filter: blur(10px); /* میزان بلور */
     z-index: -1;
 }
 .container {
