@@ -61,3 +61,57 @@ h1 {
   box-shadow: 0px 0px 15px 5px gold; /* افکت نورانی طلایی اطراف */
   border-radius: 10px; /* گوشه‌های گرد */
 }
+/* استایل برای بخش دانه‌ها */
+.dropdown-container {
+  position: fixed;
+  right: 0;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* استایل برای دانه‌ها */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f4f4f4;
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dropdown-content p, .dropdown-content ul {
+  font-size: 16px;
+  color: #333;
+}
+
+.dropdown-content ul {
+  padding-left: 15px;
+}
+
+/* نمایش دانه‌ها هنگام کلیک */
+.dropdown.open .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
