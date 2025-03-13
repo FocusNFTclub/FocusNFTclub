@@ -187,3 +187,14 @@ h1 {
     background-size: cover; /* پس‌زمینه برای موبایل مناسب‌تر شود */
   }
 }
+@media screen and (max-width: 480px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text-container {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
