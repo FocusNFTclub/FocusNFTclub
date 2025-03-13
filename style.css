@@ -70,6 +70,15 @@ h1 {
   flex-direction: column;
   gap: 20px; /* فاصله بیشتر بین دانه‌ها */
 }
+/* استایل برای بخش دانه‌ها */
+.dropdown-container {
+  position: fixed;
+  top: 10%; /* فاصله کمتر از بالای صفحه (برای بالا بردن دانه‌ها) */
+  right: 20px; /* فاصله از سمت راست صفحه */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* فاصله بیشتر بین دانه‌ها */
+}
 
 /* استایل برای دانه‌ها */
 .dropdown {
@@ -77,6 +86,7 @@ h1 {
   display: inline-block;
   width: 200px; /* عرض دانه‌ها */
   transition: transform 0.3s ease; /* انیمیشن تغییر موقعیت دانه‌ها */
+  border-radius: 50%; /* حلقه طلایی */
 }
 
 .dropdown:hover {
@@ -85,7 +95,7 @@ h1 {
 
 .dropbtn {
   background-color: #f9f9f9;
-  color: #333;
+  color: #ffd700; /* رنگ طلایی متن */
   padding: 12px 20px; /* تغییر اندازه دکمه */
   border: none;
   cursor: pointer;
@@ -94,13 +104,16 @@ h1 {
   width: 100%; /* عرض دکمه به اندازه دانه */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* سایه نرم دکمه */
   transition: all 0.3s ease; /* انیمیشن برای تغییرات دکمه */
+  position: relative;
+  z-index: 1;
 }
 
 /* تغییر رنگ و سایه دکمه هنگام hover */
 .dropbtn:hover {
-  background-color: #ffcc00; /* رنگ طلایی هنگام hover */
+  background-color: #000000; /* پس‌زمینه سیاه خیره هنگام hover */
+  color: #ff4500; /* رنگ نارنجی متن هنگام hover */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* سایه بزرگ‌تر هنگام hover */
-  color: #fff; /* تغییر رنگ متن */
+  border: 3px solid #ffd700; /* حلقه طلایی هنگام hover */
 }
 
 /* استایل برای محتوای دانه‌ها */
@@ -127,4 +140,5 @@ h1 {
 /* تغییر رنگ و سایه دکمه هنگام hover */
 .dropdown:hover .dropbtn {
   background-color: #ddd;
+  color: #ff4500; /* رنگ نارنجی متن هنگام hover */
 }
