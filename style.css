@@ -1,4 +1,11 @@
 body {
+    body {
+    background-image: url('image/cover.jpeg'); /* مسیر عکس را بررسی کن که درست باشد */
+    background-size: cover; /* تصویر را طوری تنظیم می‌کند که کل صفحه را بپوشاند */
+    background-position: center; /* تصویر را در مرکز صفحه قرار می‌دهد */
+    background-repeat: no-repeat; /* از تکرار تصویر جلوگیری می‌کند */
+    background-attachment: fixed; /* تصویر هنگام اسکرول کردن صفحه، ثابت باقی می‌ماند */
+}
     background-color: black; /* پس‌زمینه سیاه */
     color: gold; /* متن طلایی */
     font-family: Arial, sans-serif; /* فونت پیش‌فرض */
