@@ -64,27 +64,29 @@ h1 {
 /* استایل برای بخش دانه‌ها */
 .dropdown-container {
   position: fixed;
-  right: 0;
-  top: 20%;
+  top: 10%; /* فاصله کمتر از بالای صفحه (برای بالا بردن دانه‌ها) */
+  right: 20px; /* فاصله از سمت راست صفحه */
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px; /* فاصله بیشتر بین دانه‌ها */
 }
 
 /* استایل برای دانه‌ها */
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 200px; /* عرض دانه‌ها */
 }
 
 .dropbtn {
   background-color: #f9f9f9;
   color: #333;
-  padding: 10px 20px;
+  padding: 12px 20px; /* تغییر اندازه دکمه */
   border: none;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 8px; /* گوشه‌های دکمه گرد */
+  width: 100%; /* عرض دکمه به اندازه دانه */
 }
 
 .dropdown-content {
@@ -94,8 +96,9 @@ h1 {
   background-color: #f4f4f4;
   min-width: 200px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 8px;
+  padding: 15px;
+  z-index: 1;
 }
 
 .dropdown-content p, .dropdown-content ul {
