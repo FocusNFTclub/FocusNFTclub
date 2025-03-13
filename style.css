@@ -8,7 +8,7 @@ body {
 .header {
     position: relative;
     width: 100%; /* عرض تغییر نمی‌کند */
-    height: 70vh; /* 30% از ارتفاع کاهش یافته (قبلاً 100vh بود) */
+    height: 50vh; /* 50% از ارتفاع کاهش یافته (قبلاً 100vh بود) */
     background: url('image/cover.jpeg') no-repeat center center/cover;
 }
 
